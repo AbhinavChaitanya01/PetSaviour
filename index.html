@@ -1,22 +1,66 @@
 <!doctype html>
 <html lang="en">
 
+
 <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="shortcut icon" href="/PetSaviour/logo2.jpg " type="image/x-icon" style="border-radius:50%;">
+    <link class="icon" rel="shortcut icon" href="logo.jpg" type="image/x-icon">
+
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <title>Petsaviour</title>
 </head>
+<style>
+    .class {
+        width: 3px;
+        height: 3px;
+        display: inline-flex;
+        background-color: aliceblue;
+        color: blue;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .font {
+
+        font-weight: 600;
+        font-size: 2.813rem;
+        line-height: 3.875rem;
+        letter-spacing: -.15px;
+        color: rgb(5, 49, 196);
+        font-style: oblique;
+
+    }
+
+    #secondary {
+        font-size: 2.8rem;
+        color: red;
+    }
+
+    .jumbotron {
+        padding: 0.5rem 1rem;
+    }
+
+    .pt-5,
+    .py-5 {
+        padding-top: 0rem !important;
+    }
+
+    
+</style>
+
 
 <body>
     <!-- Navigation bar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#"><img src="/PetSaviour/logo2.jpg" alt="" style="width: 3rem;height:3rem;border-radius:50% "> PETSAVIOUR</a>
+        <a class="navbar-brand" href="#"><img src="logo.jpg" alt=""
+                style="width: 2.5rem;height:2.5rem;border-radius:50% ">
+            PETSAVIOUR </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
@@ -42,26 +86,46 @@
                     </div>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/donation.html">Donation</a>
+                    <a class="nav-link" href="/donation.html">Donate</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/blog.html">Blog</a>
                 </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Rescue Centers
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Justdogs</a>
+                        <a class="dropdown-item" href="#">Breeding Center</a>
+                        <a class="dropdown-item" href="#">Friendicoes</a>
+                    </div>
+                </li>
+
                 <li class="nav-item">
                     <a class="nav-link" href="/contact.html">Contact Us</a>
                 </li>
 
             </ul>
             <form class="form-inline my-2 my-lg-0">
-                <input class="form-control mr-lm-2" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success my-2 my-lm-0" type="submit">Search</button>
+
+                <input class="form-control mx-1" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success mx-10 my-lm-0" type="submit">Search</button>
             </form>
+
+
+
             <div class="mx-2">
                 <button class="btn btn-primary" data-toggle="modal" data-target="#loginmodal">Login</button>
                 <button class="btn btn-danger" data-toggle="modal" data-target="#SignUpmodal">Sign Up</button>
             </div>
         </div>
     </nav>
+
+
+
+
     <!-- Login Modal -->
     <div class="modal" id="loginmodal" tabindex="-1" role="dialog" aria-labelledby="loginmodal" aria-hidden="true">
         <div class="modal-dialog" role="document">
@@ -91,7 +155,7 @@
                             <input type="checkbox" class="form-check-input" id="exampleCheck1">
                             <label class="form-check-label" for="exampleCheck1">Check me out</label>
                         </div>
-                        <button type="Login" class="btn btn-primary">Login</button>
+                        <button type="button" class="btn btn-primary">Login</button>
                     </form>
                     </p>
                 </div>
@@ -116,20 +180,20 @@
                     <p>
                     <form>
                         <div class="form-group">
-                            <label for="exampleInputEmail1">Email address</label>
-                            <input type="email" class="form-control" id="exampleInputEmail1"
+                            <label for="exampleInputEmail2">Email address</label>
+                            <input type="email" class="form-control" id="exampleInputEmail2"
                                 aria-describedby="emailHelp" placeholder="Enter email">
                             <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
                                 else.</small>
                         </div>
                         <div class="form-group">
-                            <label for="exampleInputPassword1">Password</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1"
+                            <label for="exampleInputPassword3">Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword3"
                                 placeholder="Password">
                         </div>
                         <div class="form-group">
-                            <label for="exampleInputPassword1">Confirm Password</label>
-                            <input type="password" class="form-control" id="exampleInputPassword1"
+                            <label for="exampleInputPasswor42">Confirm Password</label>
+                            <input type="password" class="form-control" id="exampleInputPassword4"
                                 placeholder="Password">
                         </div>
 
@@ -165,7 +229,7 @@
                         <h2>Welcome to Petsaviour</h2>
                         <p>Help the needy pets to get a new beautiful life:)</p>
                         <a href="/Adopt.html" class="badge badge-primary">Adopt a Pet</a>
-                        <a href="/Donation.html" class="badge badge-success">Donation</a>
+                        <a href="/Donation.html" class="badge badge-success">Donate</a>
                         <a href="/Lostpet.html" class="badge badge-danger">Lost Pet</a>
 
                     </div>
@@ -199,13 +263,14 @@
 
         <section class="jumbotron text-center">
             <div class="container">
-                <h1 class="jumbotron-heading">Album example</h1>
-                <p class="lead text-muted">Something short and leading about the collection below—its contents, the
-                    creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it
-                    entirely.</p>
+
+                <h1 class="font">Featured
+                    <span id="secondary"> pets</span>
+                </h1>
+                <p class="lead text-muted">Adorable adoptables near you!</p>
                 <p>
-                    <a href="#" class="btn btn-primary my-2">Main call to action</a>
-                    <a href="#" class="btn btn-secondary my-2">Secondary action</a>
+                    <a href="/Adopt.html" class="btn btn-primary my-2">Adopt a Pet</a>
+                    <!-- <a href="#" class="btn btn-secondary my-2">Secondary action</a> -->
                 </p>
             </div>
         </section>
@@ -216,7 +281,7 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div class="card mb-4 shadow-sm">
-                            <img src="pet2.jpeg" alt="Loading">
+                            <img src="pet2" alt="Loading">
                             <div class="card-body">
                                 <p class="card-text">This is a wider card with supporting text below as a natural
                                     lead-in to additional content. This content is a little bit longer.</p>
@@ -232,7 +297,7 @@
                     </div>
                     <div class="col-md-4">
                         <div class="card mb-4 shadow-sm">
-                            <img src="pet5.jpeg" alt="Loading">
+                            <img src="pet5" alt="Loading">
                             <div class="card-body">
                                 <p class="card-text">This is a wider card with supporting text below as a natural
                                     lead-in to additional content. This content is a little bit longer.</p>
@@ -265,7 +330,7 @@
 
                     <div class="col-md-4">
                         <div class="card mb-4 shadow-sm">
-                            <img src="pet4.jpeg" alt="Loading">
+                            <img src="pet4" alt="Loading">
                             <div class="card-body">
                                 <p class="card-text">This is a wider card with supporting text below as a natural
                                     lead-in to additional content. This content is a little bit longer.</p>
@@ -311,14 +376,49 @@
                             </div>
                         </div>
                     </div>
-
-
-
+                </div>
+                <div class="petcard">
+                    <div class="card" style="width: 18rem;">
+                        <img src="pet2" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Dog Name</h5>
+                            <p class="card-text">Description of dog</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Cras justo odio</li>
+                            <li class="list-group-item">Dapibus ac facilisis in</li>
+                            <li class="list-group-item">Vestibulum at eros</li>
+                        </ul>
+                        <div class="card-body">
+                            <a href="#" class="card-link">Card link</a>
+                            <a href="#" class="card-link">Another link</a>
+                        </div>
+            
+                    </div>
+                    <div class="card" style="width: 18rem;">
+                        <img src="pet2" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Dog Name</h5>
+                            <p class="card-text">Description of dog</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">Cras justo odio</li>
+                            <li class="list-group-item">Dapibus ac facilisis in</li>
+                            <li class="list-group-item">Vestibulum at eros</li>
+                        </ul>
+                        <div class="card-body">
+                            <a href="#" class="card-link">Card link</a>
+                            <a href="#" class="card-link">Another link</a>
+                        </div>
+            
+                    </div>
                 </div>
             </div>
         </div>
 
     </main>
+
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
