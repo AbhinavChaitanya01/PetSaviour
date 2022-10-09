@@ -4,6 +4,7 @@
 .nav-item p{
     font-size: 3rem;
     font-family: Sacramento;
+    margin-top:10px;
 }
 .OurImage{
     width:10rem;
@@ -15,6 +16,9 @@
     background-image:url(aboutBackintro.png);
     text-align: center;
     padding:30px;
+}
+.fa-home{
+    color:#fff;
 }
 .desc{
     background-color:#005C53;
@@ -48,7 +52,8 @@ footer .contact-icons{
 }
 .card-body{
     background-color: #D6D58E;
-}
+   text-align: center;
+}   
 .card{
     margin:20px 10px 10px 10px;
 }

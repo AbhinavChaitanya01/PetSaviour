@@ -6,59 +6,20 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link class="icon" rel="shortcut icon" href="logo.jpg" type="image/x-icon">
+    <link class="icon" rel="shortcut icon" href="logo2.jpg" type="image/x-icon">
 
-
+<!-- Font-awesome used for icons -->
+<script src="https://kit.fontawesome.com/99624a14a1.js" crossorigin="anonymous"></script>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-
+        <link rel="stylesheet" href="style.css">    
     <title>Petsaviour</title>
 </head>
-<style>
-    .class {
-        width: 3px;
-        height: 3px;
-        display: inline-flex;
-        background-color: aliceblue;
-        color: blue;
-        align-items: center;
-        justify-content: center;
-    }
-
-    .font {
-
-        font-weight: 600;
-        font-size: 2.813rem;
-        line-height: 3.875rem;
-        letter-spacing: -.15px;
-        color: rgb(5, 49, 196);
-        font-style: oblique;
-
-    }
-
-    #secondary {
-        font-size: 2.8rem;
-        color: red;
-    }
-
-    .jumbotron {
-        padding: 0.5rem 1rem;
-    }
-
-    .pt-5,
-    .py-5 {
-        padding-top: 0rem !important;
-    }
-
-    
-</style>
-
-
 <body>
     <!-- Navigation bar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#"><img src="logo.jpg" alt=""
+        <a class="navbar-brand" href="#"><img src="logo2.jpg" alt=""
                 style="width: 2.5rem;height:2.5rem;border-radius:50% ">
             PETSAVIOUR </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
@@ -72,7 +33,7 @@
                     <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/about.html">About</a>
+                    <a class="nav-link" href="about.html">About</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -104,7 +65,7 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="/contact.html">Contact Us</a>
+                    <a class="nav-link" href="#contactUs">Contact Us</a>
                 </li>
 
             </ul>
@@ -281,7 +242,7 @@
                 <div class="row">
                     <div class="col-md-4">
                         <div class="card mb-4 shadow-sm">
-                            <img src="pet2" alt="Loading">
+                            <img src="pet2.jpeg" alt="Loading">
                             <div class="card-body">
                                 <p class="card-text">This is a wider card with supporting text below as a natural
                                     lead-in to additional content. This content is a little bit longer.</p>
@@ -297,7 +258,7 @@
                     </div>
                     <div class="col-md-4">
                         <div class="card mb-4 shadow-sm">
-                            <img src="pet5" alt="Loading">
+                            <img src="pet5.jpeg" alt="Loading">
                             <div class="card-body">
                                 <p class="card-text">This is a wider card with supporting text below as a natural
                                     lead-in to additional content. This content is a little bit longer.</p>
@@ -330,7 +291,7 @@
 
                     <div class="col-md-4">
                         <div class="card mb-4 shadow-sm">
-                            <img src="pet4" alt="Loading">
+                            <img src="pet4.jpeg" alt="Loading">
                             <div class="card-body">
                                 <p class="card-text">This is a wider card with supporting text below as a natural
                                     lead-in to additional content. This content is a little bit longer.</p>
@@ -430,11 +391,14 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-
-    <footer class="container">
-        <p class="float-right"><a href="#">Back to top</a></p>
-        <p>© 2022-2023 Petsaviour. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
-    </footer>
+        <footer class="container-fluid" id="contactUs">
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-solid fa-envelope"></i>
+            <button class="btn float-right btn-outline-dark"><a class="float-right" href="#">Back to top</a></button>
+            <p>© 2022-2023 Petsaviour. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+        </footer>
 </body>
 
 </html>

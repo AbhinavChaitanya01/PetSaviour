@@ -14,3 +14,37 @@ footer .contact-icons{
     color:white;
     text-underline-offset:20px;
 }
+.class {
+    width: 3px;
+    height: 3px;
+    display: inline-flex;
+    background-color: aliceblue;
+    color: blue;
+    align-items: center;
+    justify-content: center;
+}
+
+.font {
+
+    font-weight: 600;
+    font-size: 2.813rem;
+    line-height: 3.875rem;
+    letter-spacing: -.15px;
+    color: rgb(5, 49, 196);
+    font-style: oblique;
+
+}
+
+#secondary {
+    font-size: 2.8rem;
+    color: red;
+}
+
+.jumbotron {
+    padding: 0.5rem 1rem;
+}
+
+.pt-5,
+.py-5 {
+    padding-top: 0rem !important;
+}
