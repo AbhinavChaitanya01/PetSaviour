@@ -1,0 +1,16 @@
+footer{
+    text-align: center;
+    padding:15px;
+    line-height: 40px;
+    text-indent: 20px;
+    background-color: aliceblue;
+}
+
+footer .contact-icons{
+    letter-spacing: 20px;
+    text-indent: 20px;
+}
+.btn :hover{
+    color:white;
+    text-underline-offset:20px;
+}
