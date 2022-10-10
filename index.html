@@ -6,16 +6,42 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link class="icon" rel="shortcut icon" href="logo2.jpg" type="image/x-icon">
+    
 
-<!-- Font-awesome used for icons -->
-<script src="https://kit.fontawesome.com/99624a14a1.js" crossorigin="anonymous"></script>
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" href="style.css">    
+        <link class="icon" rel="shortcut icon" href="logo2.jpg" type="image/x-icon">
     <title>Petsaviour</title>
 </head>
+<style>
+    .font {
+        font-weight: 600;
+        font-size: 2.813rem;
+        line-height: 3.875rem;
+        letter-spacing: -.15px;
+        color: rgb(5, 49, 196);
+        font-style: oblique;
+
+    }
+
+    #secondary {
+        font-size: 2.8rem;
+        color: red;
+    }
+
+    .jumbotron {
+        padding: 0.5rem 1rem;
+    }
+
+    .pt-5,
+    .py-5 {
+        padding-top: 0rem !important;
+    }
+</style>
+
+
 <body>
     <!-- Navigation bar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -33,7 +59,7 @@
                     <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="about.html">About</a>
+                    <a class="nav-link" href="/about.html">About</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -57,7 +83,7 @@
                         data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                         Rescue Centers
                     </a>
-                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown" style="z-index: 12;">
                         <a class="dropdown-item" href="#">Justdogs</a>
                         <a class="dropdown-item" href="#">Breeding Center</a>
                         <a class="dropdown-item" href="#">Friendicoes</a>
@@ -65,14 +91,14 @@
                 </li>
 
                 <li class="nav-item">
-                    <a class="nav-link" href="#contactUs">Contact Us</a>
+                    <a class="nav-link" href="/contact.html">Contact Us</a>
                 </li>
 
             </ul>
             <form class="form-inline my-2 my-lg-0">
 
                 <input class="form-control mx-1" type="search" placeholder="Search" aria-label="Search">
-                <button class="btn btn-outline-success mx-10 my-lm-0" type="submit">Search</button>
+                <button class="btn btn-outline-success mx-10 my-lm-0" type="submit" aria-placeholder="Search for pets">Search</button>
             </form>
 
 
@@ -185,7 +211,7 @@
           </ol> -->
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="front3.jpg" class="d-block w-100" alt="...">
+                    <img src="front3.jpg" class="d-block w-100" alt="..." >
                     <div class="carousel-caption d-none d-md-block">
                         <h2>Welcome to Petsaviour</h2>
                         <p>Help the needy pets to get a new beautiful life:)</p>
@@ -223,7 +249,8 @@
     <main role="main">
 
         <section class="jumbotron text-center">
-            <div class="container">
+            <div class="container" style="height: 180px;">
+                
 
                 <h1 class="font">Featured
                     <span id="secondary"> pets</span>
@@ -231,151 +258,72 @@
                 <p class="lead text-muted">Adorable adoptables near you!</p>
                 <p>
                     <a href="/Adopt.html" class="btn btn-primary my-2">Adopt a Pet</a>
-                    <!-- <a href="#" class="btn btn-secondary my-2">Secondary action</a> -->
+                  
                 </p>
             </div>
         </section>
 
-        <div class="album py-5 bg-light">
+        <div class="album py-5 bg-dark">
             <div class="container">
-
                 <div class="row">
                     <div class="col-md-4">
-                        <div class="card mb-4 shadow-sm">
-                            <img src="pet2.jpeg" alt="Loading">
+                        <div class="card" style="width: 20rem;">
+                            <img src="pet7.jpg" class="card-img-top" alt="..." style="height:240px;">
                             <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                    </div>
-                                    <small class="text-muted">9 mins</small>
-                                </div>
+                                <h5 class="card-title" style="text-align:center;">Dollar</h5>
+                                <p class="card-text">Breed Labrador: Write About Labrador</p>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4 shadow-sm">
-                            <img src="pet5.jpeg" alt="Loading">
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Age : 1 years</li>
+                                <li class="list-group-item">Size:2ft</li>
+                                <li class="list-group-item">Location:Rohini,Delhi</li>
+                            </ul>
                             <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                    </div>
-                                    <small class="text-muted">9 mins</small>
-                                </div>
+                                <a href="#" class="card-link">Adopt</a>
+                                <a href="#" class="card-link">Know More</a>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4 shadow-sm">
-                            <img src="pet6" alt="Loading">
-                            <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                    </div>
-                                    <small class="text-muted">9 mins</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
 
+                        </div>
+                    </div>
                     <div class="col-md-4">
-                        <div class="card mb-4 shadow-sm">
-                            <img src="pet4.jpeg" alt="Loading">
+                        <div class="card" style="width: 20rem;">
+                            <img src="pet2.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                    </div>
-                                    <small class="text-muted">9 mins</small>
-                                </div>
+                                <h5 class="card-title" style="text-align:center;">Charlie</h5>
+                                <p class="card-text">Breed Labrador: Write About Labrador</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Age : 2 years</li>
+                                <li class="list-group-item">Size:3ft</li>
+                                <li class="list-group-item">Location:Lajpat Nagar,Delhi</li>
+                            </ul>
+                            <div class="card-body">
+                                <a href="#" class="card-link">Adopt</a>
+                                <a href="#" class="card-link">Know More</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4">
-                        <div class="card mb-4 shadow-sm">
-                            <img src="pet1" alt="Loading">
+
+                        <div class="card" style="width: 20rem;">
+                            <img src="pet5.jpg" class="card-img-top" alt="...">
                             <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                    </div>
-                                    <small class="text-muted">9 mins</small>
-                                </div>
+                                <h5 class="card-title" style="text-align:center;">Lily</h5>
+                                <p class="card-text">Breed Ocicat: Write About Ocicat</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Age : 1 years</li>
+                                <li class="list-group-item">Size:1.5ft</li>
+                                <li class="list-group-item">Location:Wave City,Delhi</li>
+                            </ul>
+                            <div class="card-body">
+                                <a href="#" class="card-link">Adopt</a>
+                                <a href="#" class="card-link">Know More</a>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-4">
-                        <div class="card mb-4 shadow-sm">
-                            <img src="pet3" alt="Loading">
-                            <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                    </div>
-                                    <small class="text-muted">9 mins</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="petcard">
-                    <div class="card" style="width: 18rem;">
-                        <img src="pet2" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Dog Name</h5>
-                            <p class="card-text">Description of dog</p>
-                        </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Cras justo odio</li>
-                            <li class="list-group-item">Dapibus ac facilisis in</li>
-                            <li class="list-group-item">Vestibulum at eros</li>
-                        </ul>
-                        <div class="card-body">
-                            <a href="#" class="card-link">Card link</a>
-                            <a href="#" class="card-link">Another link</a>
-                        </div>
-            
-                    </div>
-                    <div class="card" style="width: 18rem;">
-                        <img src="pet2" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <h5 class="card-title">Dog Name</h5>
-                            <p class="card-text">Description of dog</p>
-                        </div>
-                        <ul class="list-group list-group-flush">
-                            <li class="list-group-item">Cras justo odio</li>
-                            <li class="list-group-item">Dapibus ac facilisis in</li>
-                            <li class="list-group-item">Vestibulum at eros</li>
-                        </ul>
-                        <div class="card-body">
-                            <a href="#" class="card-link">Card link</a>
-                            <a href="#" class="card-link">Another link</a>
-                        </div>
-            
                     </div>
                 </div>
             </div>
-        </div>
 
     </main>
 
@@ -391,14 +339,11 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
         integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
         crossorigin="anonymous"></script>
-        <footer class="container-fluid" id="contactUs">
-            <i class="fa-brands fa-twitter"></i>
-            <i class="fa-brands fa-facebook-f"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-solid fa-envelope"></i>
-            <button class="btn float-right btn-outline-dark"><a class="float-right" href="#">Back to top</a></button>
-            <p>© 2022-2023 Petsaviour. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
-        </footer>
+
+    <footer class="container">
+        <p class="float-right"><a href="#">Back to top</a></p>
+        <p>© 2022-2023 Petsaviour. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+    </footer>
 </body>
 
 </html>
